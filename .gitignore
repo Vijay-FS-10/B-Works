@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+db.sqlite3
+/media/
+/staticfiles/
+
+# Environment
+.env
+venv/
+ENV/
+env/
+*.env
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Pytest
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Migrations (optional, if you want to auto-create them fresh)
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Node (if using npm/yarn)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Git
+*.orig
